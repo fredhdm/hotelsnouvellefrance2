@@ -238,14 +238,14 @@ google.maps.event.addDomListener(window, "resize", function() {
 						
 						$(".popup-overlay").on("click",function(e) {
 							if(e.target === this) {
-								$(".popup-overlay").removeClass("trigger");
-								return false;
+								//$(".popup-overlay").removeClass("trigger");
+								//return false;
 							}
 						});
 						
 						$(".js-close-popup").on("click",function(e) {
-							$(".popup-overlay").removeClass("trigger");
-							return false;
+							//$(".popup-overlay").removeClass("trigger");
+							//return false;
 						});
 					});
 					
